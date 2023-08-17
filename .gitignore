@@ -1,0 +1,8 @@
+.nuxt
+.idea
+.vscode
+/node_modules
+.yarn
+*.log
+*.lock
+*-lock.json
