@@ -1,10 +1,14 @@
 <template>
-  <h1>Start</h1>
+  <MainLayout>
+  </MainLayout>
 </template>
 
 <script>
+import MainLayout from "~/layouts/MainLayout.vue";
+
 export default {
-  name: 'index'
+  name: 'index',
+  components: {MainLayout}
 };
 </script>
 
